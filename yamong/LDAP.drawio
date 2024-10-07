@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="페이지-1" id="OeGGUrurBwnydXl34IDs">
-    <mxGraphModel>
+    <mxGraphModel dx="1500" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-1" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="780" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-2" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="20" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-3" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="160" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-4" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="300" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-5" value="kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="39" y="343" width="710" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-6" value="" style="group" vertex="1" connectable="0" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="509" y="353" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-6">
+          <mxGeometry width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ebpf.io/static/logo-black-98b7a1413b4a74ed961d292cf83da82e.svg;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-6">
+          <mxGeometry x="14.666666666666671" y="7.666666666666668" width="70.66666666666666" height="24.666666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="290" as="sourcePoint" />
+            <mxPoint x="780" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-10" value="User Space" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="7" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-11" value="LDAP&lt;div&gt;Store&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="670" y="120" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-12" value="Kernel Space" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="7" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;direction=south;" vertex="1" parent="XZGAnjdKv0loTaV-YKSG-1">
+          <mxGeometry x="310" y="240" width="40" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-14" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="461" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-15" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="461" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XZGAnjdKv0loTaV-YKSG-16" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="461" width="40" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
