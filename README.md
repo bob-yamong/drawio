@@ -4,6 +4,7 @@
 
 ## 전체 flow
 ![전체 flow](img/yamong/yamong.png)
+![전체 flow v2](img/yamong/yamong-v2.png)
 ---
 
 ## 정책 생성
