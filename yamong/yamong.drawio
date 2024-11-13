@@ -1359,10 +1359,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5MoIsjfJViJIeNE0eSXm-55" value="Alert&lt;br style=&quot;font-size: 14px;&quot;&gt;(PGMQ)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="417.5" y="490" width="70" height="30" as="geometry" />
+          <mxGeometry x="393.5" y="490" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5MoIsjfJViJIeNE0eSXm-56" value="Log&lt;br style=&quot;font-size: 14px;&quot;&gt;(Query)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="531" y="520" width="70" height="30" as="geometry" />
+          <mxGeometry x="505" y="520" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5MoIsjfJViJIeNE0eSXm-57" value="Full Log&lt;br style=&quot;font-size: 14px;&quot;&gt;(Zlib)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="748" y="612" width="70" height="30" as="geometry" />
