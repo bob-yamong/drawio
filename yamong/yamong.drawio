@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="4">
   <diagram name="페이지-1" id="BvtBV7veBcAPr5XQ3UcV">
     <mxGraphModel dx="1678" dy="-1459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1481,7 +1481,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hPFLiP4YvQhzYdzL7UdY" name="페이지-4">
-    <mxGraphModel dx="2257" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2626" dy="2105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1685,7 +1685,7 @@
         <mxCell id="AIK97RTbLe-feg1wUm-0-47" value="" style="shape=actor;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="1148" y="584" width="118" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="AIK97RTbLe-feg1wUm-0-48" value="server #2" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="AIK97RTbLe-feg1wUm-0-48" value="Agent&amp;nbsp;#2" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="3209" y="525" width="311" height="154" as="geometry">
             <mxRectangle x="378" y="32" width="85" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -1732,7 +1732,7 @@
         <mxCell id="AIK97RTbLe-feg1wUm-0-59" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx_dashboard;" parent="1" vertex="1">
           <mxGeometry x="3742" y="63" width="113.02" height="105.11" as="geometry" />
         </mxCell>
-        <mxCell id="AIK97RTbLe-feg1wUm-0-60" value="server #1" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="AIK97RTbLe-feg1wUm-0-60" value="Agent&amp;nbsp;#1" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="2871" y="523" width="311" height="154" as="geometry">
             <mxRectangle x="378" y="32" width="85" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -1776,7 +1776,7 @@
         <mxCell id="AIK97RTbLe-feg1wUm-0-70" value="/policy" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" parent="AIK97RTbLe-feg1wUm-0-60" vertex="1">
           <mxGeometry x="19" y="45.5" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="AIK97RTbLe-feg1wUm-0-71" value="server #N" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="AIK97RTbLe-feg1wUm-0-71" value="Agent #N" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="3635" y="525" width="311" height="154" as="geometry">
             <mxRectangle x="378" y="32" width="85" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -1954,14 +1954,14 @@
         <mxCell id="AIK97RTbLe-feg1wUm-0-119" value="자살하면 그만이야" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1982" y="1122" width="184" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="AIK97RTbLe-feg1wUm-0-120" value="Data" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3011.42" y="51" width="672.58" height="337" as="geometry" />
+        <mxCell id="AIK97RTbLe-feg1wUm-0-120" value="Manager" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3011.42" y="50" width="672.58" height="338" as="geometry" />
         </mxCell>
         <mxCell id="AIK97RTbLe-feg1wUm-0-121" value="ALERT" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="AIK97RTbLe-feg1wUm-0-120" vertex="1">
           <mxGeometry x="457.58439579684773" y="135.00428571428574" width="111.38704028021016" height="50.142857142857146" as="geometry" />
         </mxCell>
         <mxCell id="AIK97RTbLe-feg1wUm-0-122" value="" style="group" parent="1" connectable="0" vertex="1">
-          <mxGeometry x="3427" y="307" width="257" height="81" as="geometry" />
+          <mxGeometry x="3710" y="370" width="257" height="81" as="geometry" />
         </mxCell>
         <mxCell id="AIK97RTbLe-feg1wUm-0-123" value="Third-Party Tools" style="swimlane;whiteSpace=wrap;html=1;" parent="AIK97RTbLe-feg1wUm-0-122" vertex="1">
           <mxGeometry width="257" height="81" as="geometry" />
